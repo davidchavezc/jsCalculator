@@ -1,4 +1,4 @@
-function operate(num1, num2, operator){
+export function operate(num1, num2, operator){
     switch(operator){
         case 'sum':
             return num1+num2;
